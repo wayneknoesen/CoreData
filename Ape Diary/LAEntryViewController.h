@@ -1,5 +1,5 @@
 //
-//  LAAppDelegate.h
+//  LANewEntryViewController.h
 //  Ape Diary
 //
 //  Created by Wayne Knoesen on 31/05/14.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LAAppDelegate : UIResponder <UIApplicationDelegate>
+@class WKDiaryEntry;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface LAEntryViewController : UIViewController
 
-
+@property (nonatomic, strong)WKDiaryEntry *entry;
 
 @end

@@ -22,6 +22,11 @@
 		4759550C193A3DBB00BCA20A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475954F0193A3DBA00BCA20A /* CoreData.framework */; };
 		47595514193A3DBB00BCA20A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47595512193A3DBB00BCA20A /* InfoPlist.strings */; };
 		47595516193A3DBB00BCA20A /* Ape_DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47595515193A3DBB00BCA20A /* Ape_DiaryTests.m */; };
+		47595521193A3FE700BCA20A /* LACoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 47595520193A3FE700BCA20A /* LACoreDataStack.m */; };
+		47595524193A778B00BCA20A /* WKDiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 47595523193A778B00BCA20A /* WKDiaryEntry.m */; };
+		47595526193A7BE600BCA20A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47595525193A7BE600BCA20A /* MainStoryboard.storyboard */; };
+		47595529193A7DC100BCA20A /* LAEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47595528193A7DC100BCA20A /* LAEntryViewController.m */; };
+		4759552C193B506D00BCA20A /* LAEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759552B193B506D00BCA20A /* LAEntryListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		47595511193A3DBB00BCA20A /* Ape DiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ape DiaryTests-Info.plist"; sourceTree = "<group>"; };
 		47595513193A3DBB00BCA20A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47595515193A3DBB00BCA20A /* Ape_DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ape_DiaryTests.m; sourceTree = "<group>"; };
+		4759551F193A3FE600BCA20A /* LACoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LACoreDataStack.h; sourceTree = "<group>"; };
+		47595520193A3FE700BCA20A /* LACoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LACoreDataStack.m; sourceTree = "<group>"; };
+		47595522193A778B00BCA20A /* WKDiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDiaryEntry.h; sourceTree = "<group>"; };
+		47595523193A778B00BCA20A /* WKDiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKDiaryEntry.m; sourceTree = "<group>"; };
+		47595525193A7BE600BCA20A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		47595527193A7DC100BCA20A /* LAEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAEntryViewController.h; sourceTree = "<group>"; };
+		47595528193A7DC100BCA20A /* LAEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAEntryViewController.m; sourceTree = "<group>"; };
+		4759552A193B506D00BCA20A /* LAEntryListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LAEntryListTableViewController.h; path = ../LAEntryListTableViewController.h; sourceTree = "<group>"; };
+		4759552B193B506D00BCA20A /* LAEntryListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LAEntryListTableViewController.m; path = ../LAEntryListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +133,15 @@
 				475954FC193A3DBA00BCA20A /* LAAppDelegate.m */,
 				47595501193A3DBA00BCA20A /* Images.xcassets */,
 				475954FE193A3DBA00BCA20A /* Ape_Diary.xcdatamodeld */,
+				47595525193A7BE600BCA20A /* MainStoryboard.storyboard */,
+				47595527193A7DC100BCA20A /* LAEntryViewController.h */,
+				47595528193A7DC100BCA20A /* LAEntryViewController.m */,
+				47595522193A778B00BCA20A /* WKDiaryEntry.h */,
+				47595523193A778B00BCA20A /* WKDiaryEntry.m */,
+				4759551F193A3FE600BCA20A /* LACoreDataStack.h */,
+				47595520193A3FE700BCA20A /* LACoreDataStack.m */,
+				4759552A193B506D00BCA20A /* LAEntryListTableViewController.h */,
+				4759552B193B506D00BCA20A /* LAEntryListTableViewController.m */,
 				475954F3193A3DBA00BCA20A /* Supporting Files */,
 			);
 			path = "Ape Diary";
@@ -229,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47595526193A7BE600BCA20A /* MainStoryboard.storyboard in Resources */,
 				475954F7193A3DBA00BCA20A /* InfoPlist.strings in Resources */,
 				47595502193A3DBA00BCA20A /* Images.xcassets in Resources */,
 			);
@@ -251,6 +275,10 @@
 			files = (
 				475954F9193A3DBA00BCA20A /* main.m in Sources */,
 				47595500193A3DBA00BCA20A /* Ape_Diary.xcdatamodeld in Sources */,
+				4759552C193B506D00BCA20A /* LAEntryListTableViewController.m in Sources */,
+				47595524193A778B00BCA20A /* WKDiaryEntry.m in Sources */,
+				47595529193A7DC100BCA20A /* LAEntryViewController.m in Sources */,
+				47595521193A3FE700BCA20A /* LACoreDataStack.m in Sources */,
 				475954FD193A3DBA00BCA20A /* LAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
